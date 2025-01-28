@@ -1,4 +1,4 @@
-# Gerenciamento de Ninjas - Projeto em Java
+# Gerenciamento de Ninjas
 
 ## Descrição
 Projeto simples em Java que permite realizar operações básicas como cadastrar, exibir informações, atualizar e deletar ninjas de uma lista, utilizando classes e conceitos de orientação a objetos.
