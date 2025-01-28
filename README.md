@@ -3,8 +3,6 @@
 ## Descrição
 Projeto simples em Java que permite realizar operações básicas como cadastrar, exibir informações, atualizar e deletar ninjas de uma lista por meio de um menu, utilizando classes e conceitos de orientação a objetos.
 
-![Menu Interativo](images/menu_ninja.jpeg)
-
 ## Funcionalidades
 - **Cadastrar Ninja**: Cadastre um novo ninja na lista.
 - **Exibir Informações**: Visualize detalhes dos ninjas cadastrados.
