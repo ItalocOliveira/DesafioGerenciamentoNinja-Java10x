@@ -29,9 +29,3 @@ Projeto simples em Java que permite realizar operações básicas como cadastrar
    - Adicionar novos ninjas.
    - Atualizar as habilidades especiais.
 
-Isso ajudará a praticar o uso de entrada do usuário e controle de fluxo no programa.
-
----
-
-Divirta-se programando e gerenciando seus ninjas!
-
