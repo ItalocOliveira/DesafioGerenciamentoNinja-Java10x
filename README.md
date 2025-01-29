@@ -1,7 +1,7 @@
 # Gerenciamento de Ninjas - Desafio 1
 
 ## Descrição
-Projeto simples em Java que permite realizar operações básicas como cadastrar, exibir informações, atualizar e deletar ninjas de uma lista, utilizando classes e conceitos de orientação a objetos.
+Projeto simples em Java que permite realizar operações básicas como cadastrar, exibir informações, atualizar e deletar ninjas de uma lista por meio de um menu, utilizando classes e conceitos de orientação a objetos.
 
 ## Funcionalidades
 - **Cadastrar Desafio1.Ninja**: Cadastre um novo ninja na lista.
