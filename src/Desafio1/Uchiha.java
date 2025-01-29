@@ -1,3 +1,5 @@
+package Desafio1;
+
 public class Uchiha extends Ninja{
 
     String habilidadeEspecial;

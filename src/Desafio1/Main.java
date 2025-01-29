@@ -1,3 +1,5 @@
+package Desafio1;
+
 import java.util.Scanner;
 
 public class Main extends Uchiha {
@@ -19,11 +21,11 @@ public class Main extends Uchiha {
         while(opcao != 5){
 
             // Mostrando o menu na tela
-            System.out.println("\n===== Menu Ninja =====");
-            System.out.println("1. Cadastrar Ninja");
+            System.out.println("\n===== Menu Desafio1.Ninja =====");
+            System.out.println("1. Cadastrar Desafio1.Ninja");
             System.out.println("2. Exibir informações dos Ninjas");
-            System.out.println("3. Atualizar habilidade especial de um Ninja");
-            System.out.println("4. Deletar Ninja");
+            System.out.println("3. Atualizar habilidade especial de um Desafio1.Ninja");
+            System.out.println("4. Deletar Desafio1.Ninja");
             System.out.println("5. Sair");
             System.out.print("Escolha uma opção: ");
 
@@ -46,10 +48,10 @@ public class Main extends Uchiha {
                                 System.out.println(contadorDeEspacosOcupados);
 
                                 //Recebendo informações do ninja
-                                System.out.println("Digite o nome do seu Ninja: ");
+                                System.out.println("Digite o nome do seu Desafio1.Ninja: ");
                                 String nomeNinja = scanner.nextLine();
 
-                                System.out.println("Digite a idade do seu Ninja: ");
+                                System.out.println("Digite a idade do seu Desafio1.Ninja: ");
                                 int idadeNinja = scanner.nextInt();
                                 scanner.nextLine();
 
@@ -74,7 +76,7 @@ public class Main extends Uchiha {
                                 novoUchiha.nivelDificuldade = dificuldadeMissao;
                                 novoUchiha.statusMissao = statusMissao;
 
-                                // Adicionando Ninja à lista
+                                // Adicionando Desafio1.Ninja à lista
                                 ninjas[i][0] = novoUchiha.nome; // Nome
                                 ninjas[i][1] = novoUchiha.idade + ""; // Idade convertida em string
                                 ninjas[i][2] = novoUchiha.habilidadeEspecial; // Habilidade especial
@@ -97,7 +99,7 @@ public class Main extends Uchiha {
                         for (int i = 0; i < NUMERO_NINJA_MAX; i++) {
                             if (ninjas[i][0] != null) {
                                 System.out.println("\n");
-                                System.out.println("================== Ninja "  + (i + 1) + " ==================");
+                                System.out.println("================== Desafio1.Ninja "  + (i + 1) + " ==================");
                                 System.out.println("Nome: " + ninjas[i][0]);
                                 System.out.println("Idade: " + ninjas[i][1] + " anos");
                                 System.out.println("Habilidade Especial: " + ninjas[i][2]);
@@ -115,7 +117,7 @@ public class Main extends Uchiha {
                         // Mostrando na tela os ninjas disponiveis na lista
                         for (int i = 0; i < NUMERO_NINJA_MAX; i++) {
                             if (ninjas[i][0] != null){
-                                System.out.println("================== Ninja "  + (i + 1) + " ==================");
+                                System.out.println("================== Desafio1.Ninja "  + (i + 1) + " ==================");
                                 System.out.println("Nome: " + ninjas[i][0]);
                                 System.out.println("Habilidade Especial: " + ninjas[i][2]);
                             }
@@ -139,13 +141,13 @@ public class Main extends Uchiha {
                         for (int i = 0; i < NUMERO_NINJA_MAX; i++) {
                             // Mostrando na tela os ninjas disponiveis na lista
                             if (ninjas[i][0] != null){
-                                System.out.println("================== Ninja "  + (i + 1) + " ==================");
+                                System.out.println("================== Desafio1.Ninja "  + (i + 1) + " ==================");
                                 System.out.println("Nome: " + ninjas[i][0]);
                                 System.out.println("Habilidade Especial: " + ninjas[i][2]);
                             }
                         }
                         // Recebendo a escolha do usuário
-                        System.out.println("Escolha qual Ninja deve ser apagado da lista: ");
+                        System.out.println("Escolha qual Desafio1.Ninja deve ser apagado da lista: ");
                         ninjaAModificar = scanner.nextInt() - 1;
                         ninjas[ninjaAModificar][0] = null;
                         ninjas[ninjaAModificar][1] = null;

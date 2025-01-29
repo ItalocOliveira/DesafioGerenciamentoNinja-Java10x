@@ -1,3 +1,5 @@
+package Desafio1;
+
 public class Ninja {
     String nome;
     int idade;
